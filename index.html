@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <script>
+        if (navigator.language)
+            var language = navigator.language;
+        else
+            var language = navigator.browserLanguage;
+    </script>
     <head>
         <meta charset="UTF-8" />
-        <title>
-            双叶一下，你就知道
+            <script>
+                if(language.includes("zh"))
+                {
+                    document.write("<title>双叶一下，你就知道</title>");
+                }
+                else
+                {
+                    document.write("<title>kevin's search engine</title>");
+                }
+            </script>
         </title>
         <link rel="icon" href="img/icon.png" sizes="32x32">
         <link rel="stylesheet" href="css/style.css" />
@@ -18,23 +32,33 @@
                         <img id="logo" src="img/logo.png">
                     </div>
                     <form onsubmit="return false;">
-                        <input type="text" id="kw" maxlength="100" autocomplete="off"><input type="button" value="双叶一下" class="btn">
+                        <input type="text" id="kw" maxlength="100" autocomplete="off"><input type="button" value="" class="btn" id="search">
                     </form>
                 </div>
             </div>
-            <div id="s_wrap" style="height: 390px; width: 800px; background: rgba(255,255,255,0.65); margin-top: 40px; box-shadow: 0px 0px 10px 5px #aaa;">
-                <img id="thumb"/>
-                <h2 id="title"></h2>
-                <div id="content">
-                </div>
-            </div>
+            <script>
+                if(language.includes("zh"))
+                {
+                    document.getElementById("search").value = "双叶一下";
+                    document.write('<div id="s_wrap" style="height: 390px; width: 800px; background: rgba(255,255,255,0.65); margin-top: 40px; box-shadow: 0px 0px 10px 5px #aaa;">\
+                                        <img id="thumb"/>\
+                                        <h2 id="title"></h2>\
+                                        <div id="content"></div>\
+                                    </div>\
+                                    <script src="js/keywords.js"><\/script>'
+                    );
+                }
+                else
+                {
+                    document.getElementById("search").value = "Search";
+                }
+            </script>
             <div class="bottom">
                 <span>BY ocrosoft & jsx</span><br>
             </div>
         </div>
         <script src="js/jquery-2.2.4.min.js"></script>
         <script>
-            document.write('<script src="js/keywords.js"><\/script>'); 
             document.write('<script src="js/index.js"><\/script>'); 
         </script>
     </body>
