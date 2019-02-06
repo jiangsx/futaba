@@ -99,5 +99,6 @@ $(document).ready(function() {
         if(useGoogle == -1) {
             useGoogle = 0;
             googleImage.src='img/icon.png';
-        }, 750);
+        }
+    }, 750);
 });
