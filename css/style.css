@@ -1,11 +1,6 @@
 html, body {
-<<<<<<< HEAD
     height: 100%;
     margin: 0;
-=======
-	height: 100%;
-	margin: 0;
->>>>>>> 39cbcb169135bd9ed594632d174247acd8ada41f
 }
 
 .bg {
@@ -40,7 +35,6 @@ html, body {
 }
 
 #kw {
-<<<<<<< HEAD
     width: 520px!important;
     padding: 10px 9px 10px 7px;
     border: 0;
@@ -51,18 +45,6 @@ html, body {
 input {
     display: inline;
     font: 16px/18px arial;
-=======
-	width: 520px!important;
-    padding: 10px 9px 10px 7px;
-    border: 0;
-    line-height: 20px;
-	outline: none;
-}
-
-input {
-	display: inline;
-	font: 16px/18px arial;
->>>>>>> 39cbcb169135bd9ed594632d174247acd8ada41f
 }
 
 .btn {
@@ -73,13 +55,8 @@ input {
     cursor: pointer;
     font-size: 16px;
     background-color: #38f;
-<<<<<<< HEAD
     color: #fff;
     outline: none;
-=======
-	outline: none;
-    color: #fff;
->>>>>>> 39cbcb169135bd9ed594632d174247acd8ada41f
 }
 
 #s_wrap {
@@ -96,13 +73,8 @@ input {
     left: 0;
     overflow: hidden;
     margin: 0;
-<<<<<<< HEAD
     text-align: center;
     color: #fff;
-=======
-	text-align: center;
-	color: #fff;
->>>>>>> 39cbcb169135bd9ed594632d174247acd8ada41f
 }
 
 #head {
@@ -114,7 +86,6 @@ input {
 }
 
 #logo {
-<<<<<<< HEAD
     width: 200px;
     cursor: default;
 }
@@ -138,37 +109,11 @@ input {
 
 #thumb {
     max-height: 390px;
-=======
-	width: 200px;
-	cursor: default;
-}
-
-#title {
-	padding: 6px 10px 6px 10px;
-	font-size: 20px;
-}
-
-#content {
-	padding: 0px 10px 0px 10px;
-	line-height: 25px;
-	overflow-y: auto;
-	height: 330px;
-	margin: 0px;
-}
-
-#content>p {
-	margin: 0px;
-}
-
-#thumb {
-	max-height: 390px;
->>>>>>> 39cbcb169135bd9ed594632d174247acd8ada41f
     max-width: 20%;
     float: right;
 }
 
 span.ggl {
-<<<<<<< HEAD
     opacity: 0.05;
 }
 
@@ -184,7 +129,4 @@ a:visited {
 a:active {
     text-decoration: blink;
     color: yellow;
-=======
-	opacity: 0.05;
->>>>>>> 39cbcb169135bd9ed594632d174247acd8ada41f
 }
